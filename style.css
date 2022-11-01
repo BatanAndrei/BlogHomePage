@@ -97,4 +97,53 @@
     margin-right: 96px;
 }
 
+.headerblock{
+    display: flex;
+    width: 1152px;
+    height: 467px;
+    background: #FBFBFB;
+    margin-bottom: 28px;
+    border: 1px solid;
+}
 
+.headerblock-h1{
+    width: 354px;
+    height: 146px;
+    position: absolute;
+    margin-top: 131px;
+    margin-left: 127px;
+    
+    border: 1px solid;
+    
+   
+}
+
+.headerblock-imgcup{
+    width: 70px;
+    height: 67px;
+    position: absolute;
+    margin-top: 192.89px;
+    margin-left: 322.61px;
+    border: 1px solid;
+    
+}
+
+.headerblock-question{
+    width: 328px;
+    height: 36px;
+    position:absolute;
+    margin-top: 296px;
+    margin-left: 127px;
+    border: 1px solid;
+   
+}
+
+.headerblock-picture{
+    width: 476px;
+    height: 323px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 583px;
+    border: 1px solid;
+  
+}
