@@ -1,0 +1,49 @@
+
+.navigation-hotcoffee{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    Line-height: 24.2px;
+    margin-left: 43px;
+    color: #000000;
+    border: 1px solid;
+}
+
+.navigation-search{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 327px;
+    color: #718096;
+    border: 1px solid;
+}
+
+.navigation-home{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 186px;
+    color: #000000;
+    border: 1px solid;
+    }
+
+.navigation-article{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 30px;
+    color: #000000;
+    border: 1px solid;
+}
+
+.navigation li{
+    display: inline;
+   
+}
