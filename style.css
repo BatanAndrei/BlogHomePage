@@ -1,4 +1,9 @@
 
+.navigation li{
+    display: inline;
+   
+}
+
 .navigation-hotcoffee{
     font-family: 'Inter';
     font-style: normal;
@@ -10,13 +15,17 @@
     border: 1px solid;
 }
 
+.navigation-searchsvg{
+    margin-left: 297.67px;
+}
+
 .navigation-search{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    margin-left: 327px;
+    margin-left: 12.4px;
     color: #718096;
     border: 1px solid;
 }
@@ -43,7 +52,4 @@
     border: 1px solid;
 }
 
-.navigation li{
-    display: inline;
-   
-}
+
