@@ -1,55 +1,100 @@
 
-.navigation li{
-    display: inline;
+.navigation{
+    display: flex;
    
 }
 
 .navigation-hotcoffee{
-    font-family: 'Inter';
+    width: 102px;
+    height: 24px;
+    font-family: 'Inter',sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     Line-height: 24.2px;
-    margin-left: 43px;
+    margin-left: 83px;
+    margin-top: 36px;
+    margin-bottom: 25px;
     color: #000000;
     border: 1px solid;
 }
 
 .navigation-searchsvg{
+    width: 16.93px;
+    height: 16.93px;
     margin-left: 297.67px;
+    margin-top: 37.67px;
+    margin-bottom: 30.4px;
 }
 
 .navigation-search{
-    font-family: 'Inter';
+    width: 66px;
+    height: 19px;
+    font-family: 'Inter',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     margin-left: 12.4px;
+    margin-top: 37px;
+    margin-bottom: 29px;
     color: #718096;
     border: 1px solid;
 }
 
 .navigation-home{
-    font-family: 'Inter';
+    width: 45px;
+    height: 19px;
+    font-family: 'Inter',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     margin-left: 186px;
+    margin-top: 37px;
+    margin-bottom: 29px;
     color: #000000;
     border: 1px solid;
     }
 
 .navigation-article{
-    font-family: 'Inter';
+    width: 58px;
+    height: 19px;
+    font-family: 'Inter',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     margin-left: 30px;
+    margin-top: 37px;
+    margin-bottom: 29px;
     color: #000000;
     border: 1px solid;
+}
+
+.navigation-instsvg{
+    width: 20px;
+    height: 20px;
+    margin-left: 30px;
+    margin-top: 36px;
+    margin-bottom: 29px;
+}
+
+.navigation-twitsvg{width: 102px;
+    width: 20.38px;
+    height: 16.57px;
+    margin-left: 34.78px;
+    margin-top: 37.69px;
+    margin-bottom: 30.74px;
+}
+
+.navigation-linkeidsvg{width: 102px;
+    width: 18px;
+    height: 18px;
+    margin-left: 35.84px;
+    margin-top: 37px;
+    margin-bottom: 30px;
+    margin-right: 96px;
 }
 
 
