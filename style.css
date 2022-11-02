@@ -113,6 +113,13 @@
     margin-top: 131px;
     margin-left: 127px;
     
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+
+    color: #000000;
     border: 1px solid;
     
    
@@ -124,6 +131,9 @@
     position: absolute;
     margin-top: 192.89px;
     margin-left: 322.61px;
+
+    background: url('images.png');
+    transform: rotate(-23.28deg);
     border: 1px solid;
     
 }
@@ -134,6 +144,16 @@
     position:absolute;
     margin-top: 296px;
     margin-left: 127px;
+
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #4A5568;
+
+color: #4A5568;
     border: 1px solid;
    
 }
@@ -144,6 +164,28 @@
     position: absolute;
     margin-top: 70px;
     margin-left: 583px;
+
+    background: url('croods.png');
     border: 1px solid;
   
+}
+
+.card-latest-text1{
+
+}
+
+.card-latest-text2{
+
+}
+
+.card-latest-text3{
+
+}
+
+.card-latest-text4{
+
+}
+
+.card-latest-picture{
+    
 }
