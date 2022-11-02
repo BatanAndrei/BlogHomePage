@@ -287,6 +287,90 @@
 .block-card-panel-left{
     width: 300px;
     height: 382px;
+    display: flex;
+
+    border: 1px solid;
+}
+
+.block-card-panel-left-foto{
+    width: 297px;
+    height: 179px;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 2px;
+    background: url('image.png');
+    
+    border: 1px solid;
+}
+
+.block-card-panel-left-text1{
+    width: 245px;
+    height: 24px;
+    position: absolute;
+    margin-top: 197px;
+    margin-left: 16px;
+
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #2D3748;
+
+    border: 1px solid;
+}
+
+.block-card-panel-left-text2{
+    width: 258px;
+    height: 85px;
+    position: absolute;
+    margin-top: 236px;
+    margin-left: 17px;
+
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #718096;
+
+    border: 1px solid;
+}
+
+.block-card-panel-left-text3{
+    width: 92px;
+    height: 15px;
+    position: absolute;
+    margin-top: 343px;
+    margin-left: 16px;
+
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #718096;
+
+    border: 1px solid;
+}
+
+.block-card-panel-left-text4{
+    width: 63px;
+    height: 15px;
+    position: absolute;
+    margin-top: 343px;
+    margin-left: 213px;
+
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #2D3748;
 
     border: 1px solid;
 }
@@ -297,6 +381,8 @@
 
     border: 1px solid;
 }
+
+
 
 .block-card-panel-right{
     width: 300px;
