@@ -148,12 +148,25 @@
     background: url('./image/croods 1.png');
 }
 
-.card-latest{
+.block-card{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 966px;
+    height: 668px;
+    margin-left: 93px;
+    margin-top: 39px;
+
+    border: 1px solid;
+}
+
+.block-card-latest{
+    /* display: flex; */
     width: 966px;
     height: 243px;
-    margin-top: 39px;
-    margin-left: 93px;
+    /* margin-top: 39px;
+    margin-left: 93px; */
     
     background: #FFFFFF;
     border: 1px solid #E2E2E2;
@@ -163,7 +176,7 @@
     border: 1px solid;
 }
 
-.card-latest-text1{
+/* .block-card-latest-text1{
     width: 246.27px;
     height: 36px;
     position: absolute;
@@ -178,9 +191,9 @@
     color: #2D3748;
 
     border: 1px solid;
-}
+} */
 
-.card-latest-text2{
+/* .block-card-latest-text2{
     width: 403.09px;
     height: 51px;
     position: absolute;
@@ -195,9 +208,9 @@
     color: #718096;
 
     border: 1px solid;
-}
+} */
 
-.card-latest-text3{
+/* .block-card-latest-text3{
     width: 92.48px;
     height: 15px;
     position: absolute;
@@ -212,9 +225,9 @@
     color: #718096;
 
     border: 1px solid;
-}
+} */
 
-.card-latest-text4{
+/* .block-card-latest-text4{
     width: 63.33px;
     height: 15px;
     position: absolute;
@@ -229,19 +242,19 @@
     color: #2D3748;
 
     border: 1px solid;
-}
+} */
 
-.card-latest-picture{
+.block-card-latest-picture{
     width: 433.24px;
     height: 243px;
-    position: absolute;
-    margin-left: 532.76px;
+    /* position: absolute;
+    margin-left: 532.76px; */
     background: url('image.png');
    
     border: 1px solid;
 }
 
-.block-card-panel{
+/* .block-card-panel{
     width: 966px;
     height: 382px;
     margin-top: 43px;
@@ -249,12 +262,12 @@
     display: flex;
     justify-content: space-between;
 
-}
+} */
 
 .block-card-panel-left{
     width: 300px;
     height: 382px;
-    display: flex;
+    /* display: flex; */
 
     border: 1px solid;
 }
@@ -262,14 +275,14 @@
 .block-card-panel-left-foto{
     width: 300px;
     height: 179px;
-    position: absolute;
-    margin-top: 0px;
+    /* position: absolute;
+    margin-top: 0px; */
     background: url('image.png');
     
     border: 1px solid;
 }
 
-.block-card-panel-left-text1{
+/* .block-card-panel-left-text1{
     width: 245px;
     height: 24px;
     position: absolute;
@@ -285,9 +298,9 @@
     color: #2D3748;
 
     border: 1px solid;
-}
+} */
 
-.block-card-panel-left-text2{
+/* .block-card-panel-left-text2{
     width: 258px;
     height: 85px;
     position: absolute;
@@ -303,9 +316,9 @@
     color: #718096;
 
     border: 1px solid;
-}
+} */
 
-.block-card-panel-left-text3{
+/* .block-card-panel-left-text3{
     width: 92px;
     height: 15px;
     position: absolute;
@@ -321,9 +334,9 @@
     color: #718096;
 
     border: 1px solid;
-}
+} */
 
-.block-card-panel-left-text4{
+/* .block-card-panel-left-text4{
     width: 63px;
     height: 15px;
     position: absolute;
@@ -339,7 +352,7 @@
     color: #2D3748;
 
     border: 1px solid;
-}
+} */
 
 .block-card-panel-center{
     width: 300px;
@@ -351,14 +364,14 @@
 .block-card-panel-center-foto{
     width: 300px;
     height: 179px;
-    position: absolute;
-    margin-top: 0px;
+    /* position: absolute;
+    margin-top: 0px; */
     background: url('image.png');
     
     border: 1px solid;
 }
 
-.block-card-panel-center-text1{
+/* .block-card-panel-center-text1{
     width: 245px;
     height: 24px;
     position: absolute;
@@ -374,9 +387,9 @@
     color: #2D3748;
 
     border: 1px solid;
-}
+} */
 
-.block-card-panel-center-text2{
+/* .block-card-panel-center-text2{
     width: 258px;
     height: 85px;
     position: absolute;
@@ -392,9 +405,9 @@
     color: #718096;
 
     border: 1px solid;
-}
+} */
 
-.block-card-panel-center-text3{
+/* .block-card-panel-center-text3{
     width: 92px;
     height: 15px;
     position: absolute;
@@ -410,9 +423,9 @@
     color: #718096;
 
     border: 1px solid;
-}
+} */
 
-.block-card-panel-center-text4{
+/* .block-card-panel-center-text4{
     width: 63px;
     height: 15px;
     position: absolute;
@@ -428,7 +441,7 @@
     color: #2D3748;
 
     border: 1px solid;
-}
+} */
 
 .block-card-panel-right{
     width: 300px;
@@ -440,14 +453,14 @@
 .block-card-panel-right-foto{
     width: 300px;
     height: 179px;
-    position: absolute;
-    margin-top: 0px;
+    /* position: absolute;
+    margin-top: 0px; */
     background: url('image.png');
     
     border: 1px solid;
 }
 
-.block-card-panel-right-text1{
+/* .block-card-panel-right-text1{
     width: 245px;
     height: 24px;
     position: absolute;
@@ -463,9 +476,9 @@
     color: #2D3748;
 
     border: 1px solid;
-}
+} */
 
-.block-card-panel-right-text2{
+/* .block-card-panel-right-text2{
     width: 258px;
     height: 85px;
     position: absolute;
@@ -481,9 +494,9 @@
     color: #718096;
 
     border: 1px solid;
-}
+} */
 
-.block-card-panel-right-text3{
+/* .block-card-panel-right-text3{
     width: 92px;
     height: 15px;
     position: absolute;
@@ -499,9 +512,9 @@
     color: #718096;
 
     border: 1px solid;
-}
+} */
 
-.block-card-panel-right-text4{
+/* .block-card-panel-right-text4{
     width: 63px;
     height: 15px;
     position: absolute;
@@ -517,7 +530,7 @@
     color: #2D3748;
 
     border: 1px solid;
-}
+} */
 
 .highlight-section{
     width: 965px;
