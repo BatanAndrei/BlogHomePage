@@ -1,7 +1,16 @@
 
-.navigation{
-    display: flex;
+.navigation li{
+    display: inline-block;
    
+}
+
+.navigation{
+    padding-left: 0px;
+    margin: 0px;
+    width: 1152px;
+    height: 85px;
+
+    border: 1px solid;
 }
 
 .navigation-hotcoffee{
@@ -12,13 +21,10 @@
     font-weight: 700;
     font-size: 20px;
     Line-height: 24.2px;
-    margin-left: 83px;
     margin-top: 36px;
-    margin-bottom: 25px;
+    margin-left: 83px;
 
     color: #000000;
-
-    border: 1px solid;
 }
 
 .navigation-searchsvg{
@@ -26,7 +32,7 @@
     height: 16.93px;
     margin-left: 297.67px;
     margin-top: 37.67px;
-    margin-bottom: 30.4px;
+    
 }
 
 .navigation-search{
@@ -39,11 +45,8 @@
     line-height: 19px;
     margin-left: 12.4px;
     margin-top: 37px;
-    margin-bottom: 29px;
 
     color: #718096;
-
-    border: 1px solid;
 }
 
 .navigation-home{
@@ -56,11 +59,8 @@
     line-height: 19px;
     margin-left: 186px;
     margin-top: 37px;
-    margin-bottom: 29px;
 
     color: #000000;
-
-    border: 1px solid;
     }
 
 .navigation-article{
@@ -73,11 +73,8 @@
     line-height: 19px;
     margin-left: 30px;
     margin-top: 37px;
-    margin-bottom: 29px;
 
     color: #000000;
-
-    border: 1px solid;
 }
 
 .navigation-instsvg{
@@ -85,7 +82,6 @@
     height: 20px;
     margin-left: 30px;
     margin-top: 36px;
-    margin-bottom: 29px;
 }
 
 .navigation-twitsvg{width: 102px;
@@ -93,7 +89,6 @@
     height: 16.57px;
     margin-left: 34.78px;
     margin-top: 37.69px;
-    margin-bottom: 30.74px;
 }
 
 .navigation-linkeidsvg{width: 102px;
@@ -101,8 +96,7 @@
     height: 18px;
     margin-left: 35.84px;
     margin-top: 37px;
-    margin-bottom: 30px;
-    margin-right: 96px;
+    margin-left: 35.84px;
 }
 
 .headerblock{
