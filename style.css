@@ -37,8 +37,7 @@
     width: 16.93px;
     height: 16.93px;
     margin-left: 297.67px;
-    margin-top: 37.67px;
-    
+    margin-top: 37.67px;    
 }
 
 .navigation-search{
@@ -67,7 +66,7 @@
     margin-top: 37px;
 
     color: #000000;
-    }
+}
 
 .navigation-article{
     width: 58px;
@@ -110,78 +109,43 @@
 
 .headerblock{
     display: flex;
+    justify-content:space-evenly;
+    align-items: center;
     width: 1152px;
     height: 467px;
     background: #FBFBFB;
     margin-bottom: 28px;
-
-    border: 1px solid;
 }
 
-.headerblock-h1{
-    width: 354px;
-    height: 146px;
-    position: absolute;
-    margin-top: 131px;
-    margin-left: 127px;
-    
+.headerblock-text{
     font-family: 'Inter', Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
-    line-height: 73px;
-
-    color: #000000;
-
-    border: 1px solid;
-    
+    line-height: 0px;
    
+    color: #000000;
 }
 
-.headerblock-imgcup{
-    width: 70px;
-    height: 67px;
-    position: absolute;
-    margin-top: 192.89px;
-    margin-left: 322.61px;
-
-    background: url('images.png');
-    transform: rotate(-23.28deg);
-
-    border: 1px solid;
-    
+.headerblock-text img{
+    float: bottom;
+    margin-bottom: -15px;
 }
 
-.headerblock-question{
-    width: 328px;
-    height: 36px;
-    position:absolute;
-    margin-top: 296px;
-    margin-left: 127px;
-
+.headerblock-text2{
     font-family: 'Inter', Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
-    line-height: 36px;
+    line-height: 86px;
 
     color: #4A5568;
-
-    border: 1px solid;
-   
 }
 
 .headerblock-picture{
     width: 476px;
     height: 323px;
-    position: absolute;
-    margin-top: 70px;
-    margin-left: 583px;
-
-    background: url('croods.png');
-
-    border: 1px solid;
-  
+    background: url('./image/croods 1.png');
 }
 
 .card-latest{
