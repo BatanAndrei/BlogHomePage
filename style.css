@@ -9,18 +9,14 @@
     font-family: "Inter";
 }
 
-.navigation li{
-    display: inline-block;
-   
-}
 
 .navigation{
+    display: flex;
+    list-style-type: none;
     padding-left: 0px;
     margin: 0px;
     width: 1152px;
     height: 85px;
-
-    border: 1px solid;
 }
 
 .navigation-hotcoffee{
@@ -88,24 +84,24 @@
 }
 
 .navigation-instsvg{
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
     margin-left: 30px;
     margin-top: 36px;
     cursor: pointer;
 }
 
 .navigation-twitsvg{width: 102px;
-    width: 20.38px;
-    height: 16.57px;
+    width: 24px;
+    height: 24px;
     margin-left: 34.78px;
     margin-top: 37.69px;
     cursor: pointer;
 }
 
 .navigation-linkeidsvg{width: 102px;
-    width: 18px;
-    height: 18px;
+    width: 24px;
+    height: 24px;
     margin-left: 35.84px;
     margin-top: 37px;
     margin-left: 35.84px;
