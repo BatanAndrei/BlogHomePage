@@ -1,4 +1,14 @@
 
+@font-face {
+    src: url('../font/Inter/static/Inter-Regular');
+    font-family: "Inter";
+}
+
+@font-face {
+    src: url('../font/Inter/static/Inter-Bold');
+    font-family: "Inter";
+}
+
 .navigation li{
     display: inline-block;
    
@@ -16,7 +26,7 @@
 .navigation-hotcoffee{
     width: 102px;
     height: 24px;
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -38,7 +48,7 @@
 .navigation-search{
     width: 66px;
     height: 19px;
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -52,7 +62,7 @@
 .navigation-home{
     width: 45px;
     height: 19px;
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -66,7 +76,7 @@
 .navigation-article{
     width: 58px;
     height: 19px;
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -82,6 +92,7 @@
     height: 20px;
     margin-left: 30px;
     margin-top: 36px;
+    cursor: pointer;
 }
 
 .navigation-twitsvg{width: 102px;
@@ -89,6 +100,7 @@
     height: 16.57px;
     margin-left: 34.78px;
     margin-top: 37.69px;
+    cursor: pointer;
 }
 
 .navigation-linkeidsvg{width: 102px;
@@ -97,6 +109,7 @@
     margin-left: 35.84px;
     margin-top: 37px;
     margin-left: 35.84px;
+    cursor: pointer;
 }
 
 .headerblock{
@@ -116,7 +129,7 @@
     margin-top: 131px;
     margin-left: 127px;
     
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
@@ -150,7 +163,7 @@
     margin-top: 296px;
     margin-left: 127px;
 
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
@@ -197,7 +210,7 @@
     margin-top: 41px;
     margin-left: 54.28px;
 
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -214,7 +227,7 @@
     margin-top: 104px;
     margin-left: 52.27px;
 
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -231,7 +244,7 @@
     margin-left: 54.28px;
     margin-top: 185px;
 
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -248,7 +261,7 @@
     margin-top: 185px;
     margin-left: 392.03px;
 
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
@@ -303,7 +316,7 @@
     margin-top: 197px;
     margin-left: 16px;
 
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -321,7 +334,7 @@
     margin-top: 236px;
     margin-left: 17px;
 
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -339,7 +352,7 @@
     margin-top: 343px;
     margin-left: 16px;
 
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -357,7 +370,7 @@
     margin-top: 343px;
     margin-left: 213px;
 
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
@@ -392,7 +405,7 @@
     margin-top: 197px;
     margin-left: 16px;
 
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -410,7 +423,7 @@
     margin-top: 236px;
     margin-left: 17px;
 
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -428,7 +441,7 @@
     margin-top: 343px;
     margin-left: 16px;
 
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -446,7 +459,7 @@
     margin-top: 343px;
     margin-left: 213px;
 
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
@@ -481,7 +494,7 @@
     margin-top: 197px;
     margin-left: 16px;
 
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -499,7 +512,7 @@
     margin-top: 236px;
     margin-left: 17px;
 
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -517,7 +530,7 @@
     margin-top: 343px;
     margin-left: 16px;
 
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -535,7 +548,7 @@
     margin-top: 343px;
     margin-left: 213px;
 
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
@@ -576,7 +589,7 @@
     margin-top: 98px;
     margin-left: 63px;
 
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -594,7 +607,7 @@
     margin-top: 218px;
     margin-left: 63px;
 
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -612,7 +625,7 @@
     margin-top: 363px;
     margin-left: 63px;
 
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -630,7 +643,7 @@
     margin-top: 363px;
     margin-left: 291px;
 
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
