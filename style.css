@@ -95,7 +95,7 @@
     cursor: pointer;
 }
 
-.navigation-twitsvg{width: 102px;
+.navigation-twitsvg{
     width: 24px;
     height: 24px;
     margin-left: 34.78px;
@@ -103,7 +103,7 @@
     cursor: pointer;
 }
 
-.navigation-linkeidsvg{width: 102px;
+.navigation-linkeidsvg{
     width: 24px;
     height: 24px;
     margin-left: 35.84px;
@@ -374,3 +374,67 @@
     line-height: 19.36px;
 }
 
+.line-hr{
+    width: 1152px;
+    margin-top: 43px;
+
+    border: 1px solid #E8E8E8;
+}
+
+.navigation-footer{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0px;
+    margin: 0px;
+    width: 1152px;
+    height: 85px;
+}
+
+.navigation-hotcoffee-footer{
+    width: 337px;
+    height: 19px;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    Line-height: 19.36px;
+    margin-top: 29px;
+    margin-left: 93px;
+
+    color: #000000;
+}
+
+.navigation-hotcoffee-footer-copyright{
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    Line-height: 19.36px;
+    
+    color: #000000;
+}
+
+.navigation-instsvg-footer{
+    width: 24px;
+    height: 24px;
+    margin-left: 497px;
+    margin-top: 30.9px;
+    cursor: pointer;
+}
+
+.navigation-twitsvg-footer{
+    width: 24px;
+    height: 24px;
+    margin-left: 34.78px;
+    margin-top: 32.5px;
+    cursor: pointer;
+}
+
+.navigation-linkeidsvg-footer{
+    width: 24px;
+    height: 24px;
+    margin-left: 35.84px;
+    margin-top: 31.84px;
+    margin-left: 35.84px;
+    cursor: pointer;
+}
