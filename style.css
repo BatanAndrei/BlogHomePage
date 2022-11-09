@@ -198,8 +198,7 @@
 .block-card-latest-picture{
     width: 433.24px;
     height: 243px;
-    /* position: absolute;
-    margin-left: 532.76px; */
+   
     background: url('./image/image 1.png');
 }
 
@@ -216,16 +215,14 @@
 .block-card-panel-left{
     width: 300px;
     height: 382px;
-    /* display: flex; */
-
+    
     border: 1px solid;
 }
 
 .block-card-panel-left-foto{
     width: 300px;
     height: 179px;
-    /* position: absolute;
-    margin-top: 0px; */
+  
     background: url('./image/image 2.png');
 }
 
@@ -258,8 +255,7 @@
 .block-card-panel-center-foto{
     width: 300px;
     height: 179px;
-    /* position: absolute;
-    margin-top: 0px; */
+  
     background: url('./image/image 4.png');
 }
 
@@ -297,8 +293,7 @@
 .block-card-panel-right-foto{
     width: 300px;
     height: 179px;
-    /* position: absolute;
-    margin-top: 0px; */
+   
     background: url('./image/image 5.png');
 }
 
@@ -329,8 +324,6 @@
     margin-top: 43px;
     margin-left: 94px;
 
-    background: #F7FAFC;
-
     border: 1px solid;
 }
 
@@ -346,6 +339,7 @@
     width: 440px;
     height: 500px;
 
+    background: #F7FAFC;
     /*font-family: 'Inter', Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -353,12 +347,10 @@
     line-height: 48px;
 
     color: #000000; */
-
-    /* border: 1px solid; */
 }
 
 .button-seemore{
-     width: 122px;
+    width: 122px;
     height: 37px;
     cursor: pointer;
     padding: 0px;
@@ -373,6 +365,7 @@
     font-size: 16px;
     line-height: 19.36px;
 }
+
 
 .line-hr{
     width: 1152px;
