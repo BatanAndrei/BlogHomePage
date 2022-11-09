@@ -237,14 +237,14 @@
     color: #2D3748;
 }
 
-.block-card-latest-picture{
+.card-latest-picture{
     width: 433.24px;
     height: 243px;
    
     background: url('./image/image 1.png');
 }
 
-.block-card-panel-left{
+.card-panel-left{
     width: 300px;
     height: 382px;
     
@@ -253,14 +253,14 @@
     border-radius: 5px;
 }
 
-.block-card-panel-left-foto{
+.card-panel-left-foto{
     width: 300px;
     height: 179px;
   
     background: url('./image/image 2.png');
 }
 
-/* .block-card-panel-left-text{
+/* .card-panel-left-text{
     width: 245px;
     height: 24px;
     position: absolute;
@@ -279,7 +279,7 @@
 } */
 
 
-.block-card-panel-center{
+.card-panel-center{
     width: 300px;
     height: 382px;
 
@@ -288,14 +288,14 @@
     border-radius: 5px;
 }
 
-.block-card-panel-center-foto{
+.card-panel-center-foto{
     width: 300px;
     height: 179px;
   
     background: url('./image/image 4.png');
 }
 
-/* .block-card-panel-center-text{
+/* .card-panel-center-text{
     width: 245px;
     height: 24px;
     position: absolute;
@@ -313,7 +313,7 @@
     border: 1px solid;
 } */
 
-.block-card-panel-right{
+.card-panel-right{
     width: 300px;
     height: 382px;
 
@@ -322,14 +322,14 @@
     border-radius: 5px;
 }
 
-.block-card-panel-right-foto{
+.card-panel-right-foto{
     width: 300px;
     height: 179px;
    
     background: url('./image/image 5.png');
 }
 
-/* .block-card-panel-right-text{
+/* .card-panel-right-text{
     width: 245px;
     height: 24px;
     position: absolute;
