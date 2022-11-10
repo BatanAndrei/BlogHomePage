@@ -306,17 +306,23 @@
 @media screen and (max-width: 1280px) {
    .body{
     display: inline-block;
+    background-color: dodgerblue;
    }
 }
 
 @media screen and (max-width: 1024px) {
     .body{
         display: inline-block;
+        background-color:cyan
        }
 }
 
 @media screen and (max-width: 768px) {
     .body{
         display: inline-block;
+        background-color: #E5E5E5;
        }
+    .button-up{
+        background-color: #E5E5E5;
+    }
 }
