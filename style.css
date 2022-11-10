@@ -260,11 +260,11 @@
     background: url('./image/image 2.png');
 }
 
-/* .card-panel-left-text{
+.card-panel-left-text{
     width: 245px;
     height: 24px;
-    position: absolute;
-    margin-top: 197px;
+    
+    margin-top: 18px;
     margin-left: 16px;
 
     font-family: 'Inter', Helvetica, Arial, sans-serif;
@@ -274,10 +274,54 @@
     line-height: 24px;
 
     color: #2D3748;
+}
 
-    border: 1px solid;
-} */
+.card-panel-left-text2{
+    width: 258px;
+    height: 85px;
+    
+    margin-top: 15px;
+    margin-left: 17px;
 
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #718096;
+}
+
+.card-panel-left-date{
+    width: 92px;
+    height: 15px;
+    margin-top: 22px;
+    margin-left: 16px;
+    
+    font-family: 'Inter',Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #718096;
+}
+
+.card-panel-left-readmore a{
+    width: 63.33px;
+    height: 15px;
+    margin-top: 22px;
+    margin-left: 105px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Inter',Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+  
+    color: #2D3748;
+}
 
 .card-panel-center{
     width: 300px;
@@ -295,11 +339,11 @@
     background: url('./image/image 4.png');
 }
 
-/* .card-panel-center-text{
+.card-panel-center-text{
     width: 245px;
     height: 24px;
-    position: absolute;
-    margin-top: 197px;
+    
+    margin-top: 18px;
     margin-left: 16px;
 
     font-family: 'Inter', Helvetica, Arial, sans-serif;
@@ -309,9 +353,54 @@
     line-height: 24px;
 
     color: #2D3748;
+}
 
-    border: 1px solid;
-} */
+.card-panel-center-text2{
+    width: 258px;
+    height: 85px;
+    
+    margin-top: 15px;
+    margin-left: 17px;
+
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #718096;
+}
+
+.card-panel-center-date{
+    width: 92px;
+    height: 15px;
+    margin-top: 22px;
+    margin-left: 16px;
+    
+    font-family: 'Inter',Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #718096;
+}
+
+.card-panel-center-readmore a{
+    width: 63.33px;
+    height: 15px;
+    margin-top: 22px;
+    margin-left: 105px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Inter',Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+  
+    color: #2D3748;
+}
 
 .card-panel-right{
     width: 300px;
@@ -329,11 +418,11 @@
     background: url('./image/image 5.png');
 }
 
-/* .card-panel-right-text{
+.card-panel-right-text{
     width: 245px;
     height: 24px;
-    position: absolute;
-    margin-top: 197px;
+    
+    margin-top: 18px;
     margin-left: 16px;
 
     font-family: 'Inter', Helvetica, Arial, sans-serif;
@@ -343,9 +432,54 @@
     line-height: 24px;
 
     color: #2D3748;
+}
 
-    border: 1px solid;
-} */
+.card-panel-right-text2{
+    width: 258px;
+    height: 85px;
+    
+    margin-top: 15px;
+    margin-left: 17px;
+
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #718096;
+}
+
+.card-panel-right-date{
+    width: 92px;
+    height: 15px;
+    margin-top: 22px;
+    margin-left: 16px;
+    
+    font-family: 'Inter',Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #718096;
+}
+
+.card-panel-right-readmore a{
+    width: 63.33px;
+    height: 15px;
+    margin-top: 22px;
+    margin-left: 105px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Inter',Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+  
+    color: #2D3748;
+}
 
 .highlight-section{
     display: flex;
