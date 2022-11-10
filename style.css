@@ -502,15 +502,69 @@
 .highlight-section-text{
     width: 440px;
     height: 500px;
-
+    
     background: #F7FAFC;
-    /*font-family: 'Inter', Helvetica, Arial, sans-serif;
+}
+
+.highlight-text-h2{
+    width: 308px;
+    height: 96px;
+    margin-top: 98px;
+    margin-left: 63px;
+
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 48px;
 
-    color: #000000; */
+    color: #000000;
+}
+
+.highlight-text-p{
+    width: 311px;
+    height: 114px;
+    margin-top: 24px;
+    margin-left: 63px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #718096;
+}
+
+.highlight-section-date{
+    width: 57px;
+    height: 19px;
+    margin-top: 31px;
+    margin-left: 63px;
+
+    font-family: 'Inter',Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #4A5568;
+}
+
+.highlight-section-readmore a{
+     width: 84px;
+     height: 19px;
+     margin-top: 31px;
+     margin-left: 171px;
+     text-decoration: none;
+     cursor: pointer;
+     font-family: 'Inter',Helvetica, Arial, sans-serif;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 19px;
+
+     color: #000000;
 }
 
 .button-seemore{
