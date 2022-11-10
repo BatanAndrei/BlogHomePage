@@ -1,0 +1,113 @@
+
+@font-face {
+    src: url('../font/Inter-Regular');
+    font-family: "Inter";
+}
+
+@font-face {
+    src: url('../font/Inter-Bold');
+    font-family: "Inter";
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navigation{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0px;
+    margin: 0px;
+    width: 1152px;
+    height: 85px;
+}
+
+.navigation-hotcoffee{
+    width: 102px;
+    height: 24px;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    Line-height: 24.2px;
+    margin-top: 36px;
+    margin-left: 83px;
+
+    color: #000000;
+}
+
+.navigation-searchsvg{
+    width: 16.93px;
+    height: 16.93px;
+    margin-left: 297.67px;
+    margin-top: 37.67px;    
+}
+
+.navigation-search{
+    width: 66px;
+    height: 19px;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 12.4px;
+    margin-top: 37px;
+
+    color: #718096;
+}
+
+.navigation-home{
+    width: 45px;
+    height: 19px;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 186px;
+    margin-top: 37px;
+
+    color: #000000;
+}
+
+.navigation-article{
+    width: 58px;
+    height: 19px;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 30px;
+    margin-top: 37px;
+
+    color: #000000;
+}
+
+.navigation-instsvg{
+    width: 24px;
+    height: 24px;
+    margin-left: 30px;
+    margin-top: 36px;
+    cursor: pointer;
+}
+
+.navigation-twitsvg{
+    width: 24px;
+    height: 24px;
+    margin-left: 34.78px;
+    margin-top: 37.69px;
+    cursor: pointer;
+}
+
+.navigation-linkeidsvg{
+    width: 24px;
+    height: 24px;
+    margin-left: 35.84px;
+    margin-top: 37px;
+    margin-left: 35.84px;
+    cursor: pointer;
+}
