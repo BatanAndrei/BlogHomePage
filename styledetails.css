@@ -1,11 +1,11 @@
 
 @font-face {
-    src: url('../font/Inter-Regular');
+    src: url('../fonts/Inter-Regular');
     font-family: "Inter";
 }
 
 @font-face {
-    src: url('../font/Inter-Bold');
+    src: url('../fonts/Inter-Bold');
     font-family: "Inter";
 }
 
@@ -108,6 +108,188 @@
     height: 24px;
     margin-left: 35.84px;
     margin-top: 37px;
+    margin-left: 35.84px;
+    cursor: pointer;
+}
+
+.picture{
+    width: 973px;
+    height: 380.37px;
+    margin-top: 19px;
+    
+
+    background-image: url('./images/image 2.2.png');
+}
+
+.header-h2{
+    width: 632px;
+    height: 46px;
+    margin-top: 41.63px;
+    padding-left: 110px;
+
+    font-family: 'Inter',Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+
+    color: #2D3748;
+
+}
+
+.header-h3{
+    width: 203px;
+    height: 23px;
+    padding-left: 110px;
+
+    font-family: 'Inter',Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #2D3748;
+}
+
+.header-date{
+    width: 147px;
+    height: 23px;
+    padding-left: 50px;
+
+    font-family: 'Inter',Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #718096;
+}
+
+.hr-start{
+    width: 760px;
+    border: 1px solid #E8E7E7;
+}
+
+.paragraf{
+    width: 765px;
+    padding-left: 110px;
+
+    font-family: 'Inter',Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.36px;
+
+    color: #718096;
+}
+
+.font-normal700{
+    width: 765px;
+    padding-left: 110px;
+
+    font-family: 'Inter',Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36.31px;
+
+    color: #2D3748;
+   
+}
+
+.font-italic700{
+    width: 765px;
+    padding-left: 110px;
+
+    font-family: 'Inter',Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.36px; 
+
+    color: #2D3748;
+}
+
+
+.button-up{
+    width: 122px;
+    height: 37px;
+    cursor: pointer;
+    
+   
+    background-color: white;
+    border: 0px;
+
+    /* transform: matrix(1, 0, 0, -1, 0, 0); */
+    
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.36px;
+}
+
+.line-hr{
+    width: 1152px;
+    margin-top: 43px;
+
+    border: 1px solid #E8E8E8;
+}
+
+.navigation-footer{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0px;
+    margin: 0px;
+    width: 1152px;
+    height: 85px;
+}
+
+.navigation-hotcoffee-footer{
+    width: 337px;
+    height: 19px;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    Line-height: 19.36px;
+    margin-top: 29px;
+    margin-left: 93px;
+
+    color: #000000;
+}
+
+.navigation-hotcoffee-footer-copyright{
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    Line-height: 19.36px;
+    
+    color: #000000;
+}
+
+.navigation-instsvg-footer{
+    width: 24px;
+    height: 24px;
+    margin-left: 497px;
+    margin-top: 30.9px;
+    cursor: pointer;
+}
+
+.navigation-twitsvg-footer{
+    width: 24px;
+    height: 24px;
+    margin-left: 34.78px;
+    margin-top: 32.5px;
+    cursor: pointer;
+}
+
+.navigation-linkeidsvg-footer{
+    width: 24px;
+    height: 24px;
+    margin-left: 35.84px;
+    margin-top: 31.84px;
     margin-left: 35.84px;
     cursor: pointer;
 }

@@ -1,17 +1,17 @@
 
 @font-face {
-    src: url('../font/Inter-Regular');
+    src: url('../fonts/Inter-Regular');
     font-family: "Inter";
 }
 
 @font-face {
-    src: url('../font/Inter-Bold');
+    src: url('../fonts/Inter-Bold');
     font-family: "Inter";
 }
 
 .body{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     align-items: center;
 }
 
@@ -150,7 +150,7 @@
 .headerblock-picture{
     width: 476px;
     height: 323px;
-    background: url('./image/croods 1.png');
+    background: url('./images/croods 1.png');
 }
 
 .block-card{
@@ -241,7 +241,7 @@
     width: 433.24px;
     height: 243px;
    
-    background: url('./image/image 1.png');
+    background: url('./images/image 1.png');
 }
 
 .card-panel-left{
@@ -257,7 +257,7 @@
     width: 300px;
     height: 179px;
   
-    background: url('./image/image 2.png');
+    background: url('./images/image 2.png');
 }
 
 .card-panel-left-text{
@@ -336,7 +336,7 @@
     width: 300px;
     height: 179px;
   
-    background: url('./image/image 4.png');
+    background: url('./images/image 4.png');
 }
 
 .card-panel-center-text{
@@ -415,7 +415,7 @@
     width: 300px;
     height: 179px;
    
-    background: url('./image/image 5.png');
+    background: url('./images/image 5.png');
 }
 
 .card-panel-right-text{
@@ -495,7 +495,7 @@
     width: 525px;
     height: 500px;
 
-    background: url('./image/image\ 7.png');
+    background: url('./images/image\ 7.png');
 
 }
 
@@ -648,4 +648,10 @@
     margin-top: 31.84px;
     margin-left: 35.84px;
     cursor: pointer;
+}
+
+.proba{
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
 }
