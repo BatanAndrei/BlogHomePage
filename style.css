@@ -156,10 +156,10 @@
 .block-card{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: space-between;
+    justify-content: center;
+    align-content: center;
+    gap: 43px 33px;
     width: 966px;
-    height: 668px;
     margin-left: 93px;
     margin-top: 39px;
 }
