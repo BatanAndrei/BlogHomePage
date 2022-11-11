@@ -21,6 +21,16 @@
     align-items: center;
 }
 
+.a:hover { 
+    transition:0s;
+    font-size: 5vh;
+}
+
+.r-more:hover{
+    transition:0s;
+    font-size: 2vh;
+}
+
 .navigation{
     display: flex;
     list-style-type: none;
@@ -578,9 +588,8 @@
     height: 37px;
     cursor: pointer;
     padding: 0px;
-    background-color: white;
+    background-color:#FFFFFF;
     border: 0px;
-
     align-self: flex-end;
     
     font-family: 'Inter', Helvetica, Arial, sans-serif;
@@ -590,6 +599,13 @@
     line-height: 19.36px;
 }
 
+.button-groove:hover{
+    transition: 0s;
+    width: 132px;
+    height: 47px;
+    border: 5px groove;
+    border-radius: 10px ;
+}
 
 .line-hr{
     width: 1152px;
