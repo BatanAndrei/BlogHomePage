@@ -208,7 +208,6 @@
     line-height: 36.31px;
 
     color: #2D3748;
-   
 }
 
 .font-italic700{
@@ -224,9 +223,8 @@
     color: #2D3748;
 }
 
-.flex-down{
-    display: flex;
-    
+.paragraf-button{
+    display: flex; 
 }
 
 .button-up{
