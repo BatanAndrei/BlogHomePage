@@ -9,6 +9,12 @@
     font-family: "Inter";
 }
 
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+
 .body{
     display: flex;
     flex-direction: column; 
@@ -653,14 +659,14 @@
 @media screen and (max-width: 1280px) {
    .body{
     display: inline-block;
-    background-color: dodgerblue;
+    /* background-color: dodgerblue; */
    }
 }
 
 @media screen and (max-width: 1024px) {
     .body{
         display: inline-block;
-        background-color:cyan
+        /* background-color:cyan */
        }
 }
 

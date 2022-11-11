@@ -9,6 +9,12 @@
     font-family: "Inter";
 }
 
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+
 .body{
     display: flex;
     flex-direction: column;
@@ -180,8 +186,7 @@
 
 .paragraf{
     width: 765px;
-    padding-left: 152px;
-    margin: 0px;
+    margin-left: 152px;
 
     font-family: 'Inter',Helvetica, Arial, sans-serif;
     font-style: normal;
@@ -306,14 +311,14 @@
 @media screen and (max-width: 1280px) {
    .body{
     display: inline-block;
-    background-color: dodgerblue;
+    /* background-color: dodgerblue; */
    }
 }
 
 @media screen and (max-width: 1024px) {
     .body{
         display: inline-block;
-        background-color:cyan
+        /* background-color:cyan */
        }
 }
 
